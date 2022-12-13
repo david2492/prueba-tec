@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root {
+    --color_1: #0172b6;
+    --color_2: white;
+    --color_3:#ff5a1a;
+    --color_4:#dcdcdc;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Container {
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+     
+}
+
+.header-cont {
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.header-cont div:nth-child(1) {
+    background: var(--color_1);
+    width: 30%;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+    color: var(--color_2);
+    
+    
+}
+
+
+
+.header-cont div:nth-child(2) {
+    background: var(--color_2);
+    width: 35%;
+    color: var(--color_1);
+    padding: 25px;
+}
+
+
+.header-cont div:nth-child(3) {
+    background: var(--color_2);
+    width: 35%;
+    color: var(--color_1);
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.content {
+    margin-top: 167px;
+    color: var(--color_1);
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 100px;
+    margin-left: 396px;
+    margin-right: 50px;
+
+    
+}
+
+.content .cap {
+    color: var(--color_1);
+    font-size: 30px;
+}
+
+.content .cap::after {
+    color: var(--color_3);
+    content: 'Gratis';
+    
+}
+
+.content .ins {
+    color: var(--color_3);
+    text-align: right;
+}
+
+
+
+
+.card-img-overlay .lorem {
+    background: var(--color_1);
+    filter:alpha(opacity=70);
+    -moz-opacity:.70;opacity:.70;
+    width: 871px;
+    height: 60px;
+    margin-left: -16px;
+    padding-right: 100px;
+}
+
+.card-img-overlay .lorem span {
+    margin-right: 30px;
+}
+
+
+
+
+
+
+.fa-check {
+    color: var(--color_3);
+    font-size: 50px;
+    
+} 
+
+
+.main {
+    display: flex;
+   
+}
+
+.card{
+    width: 75%;
+}
+
+
+
+.user-main .title::before{
+    color:var(--color_3);
+    content: 'GRATIS';
+}
+
+.user-main {
+    background-color: var(--color_1);
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 50%;
+    
+}
+
+.user-main input {
+    color:gray;
+    padding-left: 15px;
+}
+
+
+
+.user-main h3 {
+    color: var(--color_2);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.user-main h3::after{
+    color:var(--color_3);
+    content: 'GRATIS';
+}
+
+.user-main .btn {
+    background-color: var(--color_3);
+}
+
+.user-main .center {
+    text-align: center;
+    
+    
+}
+
+.aside {
+    background-color: var(--color_4);
+    display: flex;
+    height: 150px;
+    border-color: var(--color_1);
+    border-width: 0 0 10px 0;
+    border-style: solid;
+    
+}
+
+.aside .fa-graduation-cap {
+    display: flex;
+    color: var(--color_1);
+    width: 20%;
+    font-size: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside .conten-2 {
+    color: var(--color_1);
+    justify-content: left;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+.article {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    padding: 2.5em;
+}
+
+.footer {
+    display: flex;
+    height: 100px;
+    margin: none;
+}
+
+.footer p:nth-child(1) {
+    background: var(--color_1);
+    width: 30%;
+    color: var(--color_2);
+    text-align: center;
+   padding-top: 30px;
+   
+
+}
+
+.footer p:nth-child(2) {
+    background: var(--color_4);
+    width: 70%;
+    color: #0172b6;
+    padding-top: 30px;
+}
+
+.footer2 {
+    margin-top: -16px;
+    display: flex;
+    height: 20px;
+    text-align: center;
+    justify-content: center;
+    font-size: 10px;
+    background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+/*! ------------------------------------- Small => sm-------------------------------------- */
+
+@media (min-width: 500px) {
+
+    
+
+
+
+
+  
+    
+
+
+}
+
+/*! ------------------------------------- Medium => md -------------------------------------- */
+
+@media (min-width: 768px) {
+
+   
+
+    
+    
+
+
+    
+    
+   
+
+    
+    
+    
+}
+
+/*! ------------------------------------- Large => lg -------------------------------------- */
+
+@media (min-width: 992px) {
+    
+    
+    
+}
+
+/*! ------------------------------------- Extra large => xl -------------------------------------- */
+
+@media (min-width: 1200px) {
+    
+    
+}
+
+/*! ------------------------------------- Extra extra large => xxl -------------------------------------- */
+
+@media (min-width: 1400px) {
+   
+   
+}
+
+
+
+
+
+
